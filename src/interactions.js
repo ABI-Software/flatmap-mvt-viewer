@@ -582,7 +582,7 @@ export class UserInteractions
             return `<div id="info-control-info">${htmlList.join('\n')}</div>`;
         } else if (!('labelled' in properties)) {
             const label = properties.label;
-            const capitalisedLabel = label.substr(0, 1).toUpperCase() + label.substr(1).toLowerCase();
+            const capitalisedLabel = label.substr(0, 1).toUpperCase() + label.substr(1);
             if (labelSuffix === '') {
                 return `<div class='flatmap-feature-label'>${capitalisedLabel}</div>`;
             } else {
