@@ -111,7 +111,7 @@ export class FeatureBorderLayer
                 'line-color': [
                     'case',
                     ['boolean', ['feature-state', 'active'], false], 'blue',
-                    ['boolean', ['feature-state', 'highlighted'], false], 'blue',
+                    ['boolean', ['feature-state', 'highlighted'], false], 'red',
                     '#444'
                 ],
                 'line-opacity': [
